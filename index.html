@@ -13,27 +13,27 @@
 </head>
 
 <body>
-
     <div class="container">
         <h1 class="text-center">devQuizz</h1>
-        <span class="row col-12 d-flex justify-content-center text-center my-3">Petit QCM facile de 10 questions sur le développement web !</span>
+        <span class=" d-flex justify-content-center text-center my-3">Petit QCM facile de 10 questions sur le
+            développement web !</span>
 
-
-        <div id="question-container" class="hide row my-5">
-            <div id="question" class="text-center m-5 border border-dark col-md-12">Question</div>
-            <div id="answer-buttons" class="btn-grid col-md-11 m-5 text-center ">
-                <button class="btn col-md-3 col-12">Réponse 1</button>
-                <button class="btn col-md-3 col-12">Réponse 2</button>
-                <button class="btn col-md-3 col-12">Réponse 3</button>
-                <button class="btn col-md-3 col-12">Réponse 4</button>
+        <div class="row">
+            <div id="question-container" class="hide my-5 col-md-12">
+                <div id="question" class="text-center p-2 border border-dark">Question</div>
+                <div id="answer-buttons" class="btn-grid m-5 d-flex flex-column">
+                        <button class="btn">Réponse 1</button>
+                        <button class="btn">Réponse 2</button>
+                        <button class="btn">Réponse 3</button>
+                        <button class="btn">Réponse 4</button>
+                </div>
             </div>
         </div>
         <div class="controls">
-            <button id="start-btn" class="start-btn btn btn-danger mr-3">Start</button>
-            <button id="next-btn" class="next-btn btn btn-success hide ml-3">Suivant</button>
+            <button id="start-btn" class="start-btn btn btn-danger">Start</button>
+            <button id="next-btn" class="next-btn btn btn-success hide">Suivant</button>
         </div>
     </div>
-
     <script defer src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

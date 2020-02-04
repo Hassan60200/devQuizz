@@ -115,12 +115,12 @@ const questions = [
         ]
     },
     {
-        question: "Qu'est-ce que w3c ?",
+        question: "Qu'est-ce qu'un < br > ?",
         answers: [
-            { text: 'le consortium qui définit les règles de codage des pages web', correct: true },
-            { text: 'le standard HTML aux normes NFC', correct: false },
-            { text: 'le standard HTML aux normes ISO', correct: false },
-            { text: 'le consortium qui définit les règles de codage du CSS 3', correct: false },
+            { text: 'crée un saut de ligne', correct: true },
+            { text: 'une ligne horizontale', correct: false },
+            { text: 'une action en php', correct: false },
+            { text: 'un contenu gras', correct: false },
         ]
     },
     {
@@ -147,7 +147,7 @@ const questions = [
             { text: 'teste l "égalité', correct: true },
             { text: "n'existe par en JavaScript", correct: false },
             { text: 'créer des variables', correct: false },
-            { text: "s'utilise pour les affectations", correct: false },
+            { text: "s'utilise pour l'affectation", correct: false },
         ]
     },
     {
@@ -162,9 +162,9 @@ const questions = [
     {
         question: "La balise < ? ? > permet ?",
         answers: [
-            { text: 'd"inclure un commentaire sur plusieurs lignes', correct: false },
+            { text: "d'insérer des cookies", correct: false },
             { text: 'ne fonctionne pas', correct: false },
-            { text: 'd"inclure un commentaire sur une ligne', correct: false },
+            { text: 'd"inclure un commentaire', correct: false },
             { text: 'd"inclure du code PHP', correct: true },
         ]
     },

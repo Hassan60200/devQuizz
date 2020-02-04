@@ -31,8 +31,8 @@ body {
   }
 
   .container{
-      width: 800px;
-      max-width: 80%;
+      width: max-content !important;
+      max-width: max-content !important;
       background-color: white;
       border-radius: 15px;
       padding: 10px;
@@ -42,8 +42,6 @@ body {
   .btn-grid{
       display: grid !important;
     grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
   }
 
   .btn{
@@ -51,9 +49,10 @@ body {
     border: 1px solid hsl(var(--hue), 100%, 30%) !important;
     background-color: hsl(var(--hue), 100%, 50%) ;
     border-radius: 5px !important;
-    color: white !important;
+    color: black !important;
     outline: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
   }
 
   .btn:hover{
@@ -83,4 +82,27 @@ body {
 
   .hide{
       display: none !important;
+  }
+
+  @media screen and (max-width: 1000px) {
+ 
+    /*  Buttons  :  "Connectez-Vous" and "Inscrivez-Vous" */
+ 
+    .btn {
+        margin-top: 10px;
+        border-radius: 25px;
+        color: black !important;
+        font-size: 90% !important;
+        line-height: 1.5 !important;
+        flex-direction: column !important;
+        white-space: nowrap !important;
+        text-align: center !important;
+     }
+
+    .container{
+      width: 100% !important;
+      max-width: 100% !important;
+      background-color: lightgray;
+
+  }
   }
